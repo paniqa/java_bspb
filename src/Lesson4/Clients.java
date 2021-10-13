@@ -17,6 +17,14 @@ public abstract class Clients {
         return inn;
     }
 
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setInn(int inn) {
+        this.inn = inn;
+    }
+
     @Override
     public String toString() {
         return "Clients{" +

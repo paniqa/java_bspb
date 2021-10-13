@@ -18,6 +18,14 @@ public class UL extends Clients{
         return ogrn;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setOgrn(long ogrn) {
+        this.ogrn = ogrn;
+    }
+
     @Override
     public String toString() {
         return "UL{" +
